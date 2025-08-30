@@ -250,7 +250,7 @@ ReleasePackage\
 
 - Bấm Build (hoặc F9).
 
-- Sau khi build thành công, bạn sẽ thấy file `MovToMp4ConverterSetup.exe` trong folder `ReleasePackage`.
+- Sau khi build thành công, bạn sẽ thấy file `MovToMp4ConverterSetup.exe` trong folder đã thiết định theo OutputDir (ví dụ `Output`).
 
 5️⃣ Bước 5: Cài đặt thử trên máy khác
 
