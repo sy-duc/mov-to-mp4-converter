@@ -11,3 +11,6 @@ obj/
 
 # ==== Inno Setup ====
 AppFiles/
+
+# ==== Data Test ====
+data-test/

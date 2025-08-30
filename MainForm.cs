@@ -7,7 +7,10 @@ namespace MovToMp4Converter
         // ==== Config ====
         // Nếu ffmpeg không có trong PATH, đặt đường dẫn tuyệt đối tại đây, ví dụ:
         // private const string FfmpegPath = @"C:\ffmpeg\bin\ffmpeg.exe";
-        private const string FfmpegPath = "ffmpeg"; // dùng PATH của hệ thống
+        // Nếu ffmpeg có trong PATH:
+        // private const string FfmpegPath = "ffmpeg";
+        // Nếu đã copy ffmpeg.exe vào cùng thư mục với file .exe khi publish
+        private static readonly string FfmpegPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ffmpeg.exe"); // dùng ffmpeg.exe cùng thư mục với file .exe khi publish
 
         // Mặc định: encode H.264 chất lượng cao, iPhone đọc được chắc chắn
         private const string FfmpegArgsTemplate = "-i \"{IN}\" -c:v libx264 -crf 14 -preset slow -c:a aac -b:a 192k -movflags +faststart \"{OUT}\" -y";
