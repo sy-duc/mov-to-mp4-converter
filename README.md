@@ -16,6 +16,9 @@
 
 - [Download for Windows](https://github.com/sy-duc/mov-to-mp4-converter/raw/refs/heads/main/ReleasePackage/Output/MovToMp4ConverterSetup.exe)
 
+- Sau khi tải xong, thực hiện chạy file `MovToMp4ConverterSetup.exe` và cài đặt như bình thường.
+  - ⚠️ Đảm bảo khi cài đặt ứng dụng KHÔNG chạy với quyền admin để cho phép kéo thả file.
+
 ---
 
 ## 📦 Yêu cầu hệ thống
