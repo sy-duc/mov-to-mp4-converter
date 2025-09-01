@@ -12,6 +12,12 @@
 
 ---
 
+## 🔗 Download
+
+- [Download for Windows](https://github.com/sy-duc/mov-to-mp4-converter/raw/refs/heads/main/ReleasePackage/Output/MovToMp4ConverterSetup.exe)
+
+---
+
 ## 📦 Yêu cầu hệ thống
 
 - Windows 10/11
