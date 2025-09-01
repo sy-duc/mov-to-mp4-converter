@@ -19,9 +19,11 @@
 - Sau khi tải xong, thực hiện chạy file `MovToMp4ConverterSetup.exe` và cài đặt như bình thường.
   - ⚠️ Đảm bảo khi cài đặt ứng dụng KHÔNG chạy với quyền admin để cho phép kéo thả file.
 
+- 🔥 Nếu bạn chỉ quan tâm đến việc sử dụng, thì có thể bỏ qua các hướng dẫn bên dưới (chỉ dành cho developer).
+
 ---
 
-## 📦 Yêu cầu hệ thống
+## 📦 Yêu cầu hệ thống (chỉ dành cho developer)
 
 - Windows 10/11
 - [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
